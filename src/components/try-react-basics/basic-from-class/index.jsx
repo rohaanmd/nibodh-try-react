@@ -21,9 +21,6 @@ ChangeHtml(){
 
 
 render(){
-
-
-
     console.log(this.props);
     return(
     <div>
@@ -31,6 +28,7 @@ render(){
         </h1>
 
 <button className="btn btn-danger" onClick={this.ChangeHtml} >click me</button>
+
 <button className="btn btn-primary m-2" onClick={()=>{
     var ob = document.getElementById("change")
     ob.innerHTML="wow"

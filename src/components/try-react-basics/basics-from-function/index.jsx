@@ -1,4 +1,7 @@
 import React from "react"
+import Data from "../../../image/myimage.png"
+
+
 
 // functional component
 
@@ -14,9 +17,29 @@ const changeHtml = () =>{
 
     return (
         <div>
+
+single tags : jinka closing tag nahi hota
+
+<img src={Data} />
+
+{/* <img> */}
+{/* </img>  */}
+{/* esa nahi */}
+
+
+<br />
+<hr />
+
+<div> opening tag
+
+</div> closing tag
+
+
             
 <h1 id="change">this is array {props.data3[1]}</h1>
 <h1 id="change">this is FUNCTIONAL COMPONENT</h1>
+
+
             
 <button className="btn btn-danger" onClick={changeHtml} >click me</button>
 <button className="btn btn-primary m-2" onClick={()=>{
